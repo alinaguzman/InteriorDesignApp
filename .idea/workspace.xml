@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8694e7-c525-476c-9612-88e04a0a6f58" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/welcome/search.html.erb" />
       <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.gitignore" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\.generators" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\.name" afterPath="" />
@@ -87,14 +86,7 @@
       <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\vendor\assets\javascripts\.gitkeep" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\vendor\assets\stylesheets\.gitkeep" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\vendor\plugins\.gitkeep" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130715014148_create_clients.rb" afterPath="$PROJECT_DIR$/db/migrate/20130715014148_create_clients.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130715014259_create_designers.rb" afterPath="$PROJECT_DIR$/db/migrate/20130715014259_create_designers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130715014446_create_portfolios.rb" afterPath="$PROJECT_DIR$/db/migrate/20130715014446_create_portfolios.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="interiordesignapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +97,7 @@
     <file path="/portfolio.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373852697854" ignored="false" />
     <file path="/designer.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373852800743" ignored="false" />
     <file path="/user.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373910303111" ignored="false" />
-    <file path="/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373901143171" ignored="false" />
+    <file path="/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373914380421" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Week 4/moviez/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373853895115" ignored="false" />
     <file path="/application_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373856128118" ignored="false" />
     <file path="/welcome_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373909326370" ignored="false" />
@@ -163,25 +155,16 @@
       <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/search.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="86" selection-start="83" selection-end="83" vertical-scroll-proportion="-4.5">
+            <state line="6" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="-4.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="131" selection-start="95" selection-end="95" vertical-scroll-proportion="0.025210084">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130715014148_create_clients.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130715014148_create_clients.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="7" column="71" selection-start="217" selection-end="217" vertical-scroll-proportion="0.17974323">
               <folding />
             </state>
           </provider>
@@ -221,7 +204,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20130715015210_create_designers_tags_table.rb" />
         <option value="$PROJECT_DIR$/app/models/designer.rb" />
         <option value="$PROJECT_DIR$/app/models/tag.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/instagram.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -230,10 +212,11 @@
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/search.index.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/search.html.erb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130715014446_create_portfolios.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130715014148_create_clients.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130715014259_create_designers.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -298,38 +281,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interiordesignapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InteriorDesignApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interiordesignapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InteriorDesignApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,13 +754,6 @@
         <state line="7" column="57" selection-start="229" selection-end="229" vertical-scroll-proportion="0.1764706" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="72" selection-start="2376" selection-end="2376" vertical-scroll-proportion="1.4117647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/client.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
@@ -827,13 +771,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="47" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/search.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="86" selection-start="83" selection-end="83" vertical-scroll-proportion="-4.5">
           <folding />
         </state>
       </provider>
@@ -896,7 +833,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="131" selection-start="95" selection-end="95" vertical-scroll-proportion="0.025210084">
+        <state line="67" column="0" selection-start="2178" selection-end="2178" vertical-scroll-proportion="1.3781513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/search.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="-4.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="71" selection-start="217" selection-end="217" vertical-scroll-proportion="0.17974323">
           <folding />
         </state>
       </provider>
