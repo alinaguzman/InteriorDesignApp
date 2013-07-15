@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(:version => 20130715015210) do
 
   create_table "clients", :force => true do |t|
     t.string   "name"
+    t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
@@ -32,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20130715015210) do
   create_table "designers", :force => true do |t|
     t.string   "name"
     t.string   "description"
+    t.integer  "user_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
@@ -43,8 +45,9 @@ ActiveRecord::Schema.define(:version => 20130715015210) do
 
   create_table "portfolios", :force => true do |t|
     t.string   "image_path"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "designer_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "tags", :force => true do |t|

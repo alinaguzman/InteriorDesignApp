@@ -1,1 +1,15 @@
 <h1>Hi, its the index</h1>
+
+<form action='/search' method='get'>
+  <input name="username" type="text">
+  <button type="submit">Go</button>
+</form>
+
+<% @photos.each do |datum| %>
+    <%= image_tag datum.images.standard_resolution.url %>
+<% end %>
+
+
+<% if @url %>
+    <%= image_tag(@url)%>
+<% end %>
