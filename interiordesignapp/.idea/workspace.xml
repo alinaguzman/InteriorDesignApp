@@ -11,6 +11,8 @@
     <file path="/portfolio.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373852697854" ignored="false" />
     <file path="/designer.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373852800743" ignored="false" />
     <file path="/user.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373852750413" ignored="false" />
+    <file path="/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373853927947" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Week 4/moviez/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373853895115" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2502" selection-end="2502" vertical-scroll-proportion="1.6638656">
+            <state line="50" column="14" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.73109245">
               <folding />
             </state>
           </provider>
@@ -609,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2502" selection-end="2502" vertical-scroll-proportion="1.6638656">
+        <state line="50" column="14" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.73109245">
           <folding />
         </state>
       </provider>
