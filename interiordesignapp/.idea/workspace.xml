@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bcac8bc-95ba-4fc5-919c-a28e95bd154b" name="Default" comment="" />
+    <list default="true" id="8bcac8bc-95ba-4fc5-919c-a28e95bd154b" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\InteriorDesignApp.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\.idea\workspace.xml" afterPath="" />
+    </list>
     <ignored path="interiordesignapp.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/" />
+    <ignored mask=".idea/" />
     <file path="/Dummy.txt" changelist="8bcac8bc-95ba-4fc5-919c-a28e95bd154b" time="1373850471102" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +105,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
