@@ -102,10 +102,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/client.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="125" selection-end="125" vertical-scroll-proportion="0.20044543">
+            <state line="5" column="2" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130715014748_create_clients_designers_table.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130715014748_create_clients_designers_table.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="38" selection-start="250" selection-end="250" vertical-scroll-proportion="0.48106903">
               <folding />
             </state>
           </provider>
@@ -131,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/client.rb" />
         <option value="$PROJECT_DIR$/app/models/designer.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130715014748_create_clients_designers_table.rb" />
       </list>
     </option>
   </component>
@@ -571,7 +581,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/client.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="125" selection-end="125" vertical-scroll-proportion="0.20044543">
+        <state line="5" column="2" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130715014748_create_clients_designers_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="250" selection-end="250" vertical-scroll-proportion="0.48106903">
           <folding />
         </state>
       </provider>
