@@ -1,6 +1,8 @@
 Interiordesignapp::Application.routes.draw do
-  get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
-  get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
+ # get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
+ # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
+
+  resources :clients
 
   get '/search' => 'welcome#search'
 

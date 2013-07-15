@@ -5,11 +5,10 @@
   <button type="submit">Go</button>
 </form>
 
-<% @photos.each do |datum| %>
-    <%= image_tag datum.images.standard_resolution.url %>
-<% end %>
 
 
-<% if @url %>
-    <%= image_tag(@url)%>
+<% @instagram.each do |instagram| %>
+
+    <%= image_tag instagram.images.standard_resolution.url %>
+
 <% end %>

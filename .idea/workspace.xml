@@ -2,91 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8694e7-c525-476c-9612-88e04a0a6f58" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\.generators" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\.rakeTasks" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\interiordesignapp.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\README.rdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\assets\images\rails.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\assets\javascripts\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\assets\stylesheets\application.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\controllers\application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\helpers\application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\mailers\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\models\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\models\client.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\models\designer.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\models\portfolio.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\models\tag.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\models\user.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\app\views\layouts\application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config.ru" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\application.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\database.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\environments\development.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\environments\production.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\environments\test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\initializers\backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\initializers\inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\initializers\mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\initializers\secret_token.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\initializers\session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\initializers\wrap_parameters.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\locales\en.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\config\routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715013925_create_users.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715014148_create_clients.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715014259_create_designers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715014333_create_tags.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715014446_create_portfolios.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715014748_create_clients_designers_table.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715015158_create_clients_tags_table.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\migrate\20130715015210_create_designers_tags_table.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\schema.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\db\seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\doc\README_FOR_APP" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\lib\assets\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\lib\tasks\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\log\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\public\404.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\public\422.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\public\500.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\public\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\public\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\public\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\script\rails" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\fixtures\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\fixtures\clients.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\fixtures\designers.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\fixtures\portfolios.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\fixtures\tags.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\fixtures\users.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\functional\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\integration\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\performance\browsing_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\unit\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\unit\client_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\unit\designer_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\unit\portfolio_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\unit\tag_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\test\unit\user_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\vendor\assets\javascripts\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\vendor\assets\stylesheets\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\interiordesignapp\vendor\plugins\.gitkeep" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/designers_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/clients/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/clients/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/instagram.rb" afterPath="$PROJECT_DIR$/config/initializers/instagram.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="interiordesignapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,8 +24,8 @@
     <file path="/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373914380421" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Week 4/moviez/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373853895115" ignored="false" />
     <file path="/application_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373856128118" ignored="false" />
-    <file path="/welcome_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373909326370" ignored="false" />
-    <file path="/index.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373908299934" ignored="false" />
+    <file path="/welcome_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373918386375" ignored="false" />
+    <file path="/index.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373919669806" ignored="false" />
     <file path="$PROJECT_DIR$/../../Week5/twittr/db/migrate/20130715142512_create_user.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373898612538" ignored="false" />
     <file path="/20130715142512_create_user.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373898608625" ignored="false" />
     <file path="$PROJECT_DIR$/../../Week5/twittr/db/schema.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373899887577" ignored="false" />
@@ -120,12 +44,15 @@
     <file path="$PROJECT_DIR$/../../Week5/twittr/app/models/following.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373900663251" ignored="false" />
     <file path="/following.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373900582719" ignored="false" />
     <file path="$PROJECT_DIR$/../../Week5/twittr/Gemfile" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373901141914" ignored="false" />
-    <file path="/routes.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373908319512" ignored="false" />
+    <file path="/routes.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373919419678" ignored="false" />
     <file path="/search.index.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373909460048" ignored="false" />
     <file path="/20130715014446_create_portfolios.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373913724854" ignored="false" />
     <file path="/20130715014148_create_clients.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373913760519" ignored="false" />
-    <file path="/.env" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373914524409" ignored="false" />
-    <file path="/instagram.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373914661397" ignored="false" />
+    <file path="/.env" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373915786473" ignored="false" />
+    <file path="/instagram.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373918103715" ignored="false" />
+    <file path="/clients_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373919504721" ignored="false" />
+    <file path="/designers_controller.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373919553958" ignored="false" />
+    <file path="/show.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373919711687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,37 +72,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="portfolio.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/welcome/search.html.erb">
+      <file leaf-file-name="tag.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/tag.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="-4.5">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="81" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="47" selection-end="60" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,16 +102,61 @@
       <file leaf-file-name="instagram.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/instagram.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="79" selection-end="79" vertical-scroll-proportion="0.075630255">
+            <state line="5" column="49" selection-start="138" selection-end="138" vertical-scroll-proportion="0.12987013">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/designer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designers_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/designers_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="148" selection-end="245" vertical-scroll-proportion="0.0">
+            <state line="3" column="11" selection-start="94" selection-end="94" vertical-scroll-proportion="-2.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="3" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -221,22 +184,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/designer.rb" />
-        <option value="$PROJECT_DIR$/app/models/tag.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/search.index.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/search.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130715014446_create_portfolios.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130715014148_create_clients.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130715014259_create_designers.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/initializers/instagram.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/clients_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/designers_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/clients/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/clients/show.html.erb" />
       </list>
     </option>
   </component>
@@ -377,6 +340,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interiordesignapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InteriorDesignApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interiordesignapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InteriorDesignApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clients" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,79 +768,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="148" selection-end="245" vertical-scroll-proportion="0.0">
+        <state line="1" column="13" selection-start="45" selection-end="58" vertical-scroll-proportion="0.025210084">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715014333_create_tags.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/designer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="147" selection-end="147" vertical-scroll-proportion="0.12987013">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="59" selection-end="59" vertical-scroll-proportion="0.025974026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715014446_create_portfolios.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="93" selection-start="192" selection-end="192" vertical-scroll-proportion="0.25974026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715013925_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715014148_create_clients.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715014259_create_designers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="207" selection-end="207" vertical-scroll-proportion="0.25210086">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2178" selection-end="2178" vertical-scroll-proportion="1.3781513">
+        <state line="24" column="69" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.15406562">
           <folding />
         </state>
       </provider>
@@ -849,30 +789,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="81" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="-5.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="47" selection-end="60" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/controllers/clients_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="48" selection-start="444" selection-end="444" vertical-scroll-proportion="0.42857143">
+        <state line="16" column="4" selection-start="0" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/designers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="94" selection-end="94" vertical-scroll-proportion="-2.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/clients/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="3" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/designer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tag.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/instagram.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="79" selection-end="79" vertical-scroll-proportion="0.075630255">
+        <state line="5" column="49" selection-start="138" selection-end="138" vertical-scroll-proportion="0.12987013">
           <folding />
         </state>
       </provider>
