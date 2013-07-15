@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Interiordesignapp::Application.config.secret_token = 'ba094bfc2b4f751c889e0eac95eb4896a37a5daa8ffefe79856381fde7ffe138f0fea8c9803707b5e8f3873e42149955489c0cffee010bf0d911e5255f1368d9'
+Interiordesignapp::Application.config.secret_token = 'afd199c2802eeb912109305cd09c37d6118e73870469aad006b4e2d43018bbdee1da11b087ff36339cafcdad58c9dcd7ba4e1da32928a5578deb1a516c3037c8'
