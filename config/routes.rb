@@ -1,4 +1,6 @@
 Interiordesignapp::Application.routes.draw do
+  devise_for :users
+
  # get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
  # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
 

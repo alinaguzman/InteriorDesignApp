@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'devise'
 # We need the pg gem for Heroku (which is our production environment)
 # Heroku will automatically configure out config/database.yml file when we deploy
 gem 'pg', :group => :production
