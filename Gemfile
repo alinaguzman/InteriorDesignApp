@@ -9,6 +9,8 @@ gem 'rails', '3.2.13'
 
 gem 'devise'
 gem 'omniauth'
+gem "twitter-bootstrap-rails"
+
 # We need the pg gem for Heroku (which is our production environment)
 # Heroku will automatically configure out config/database.yml file when we deploy
 gem 'pg', :group => :production
