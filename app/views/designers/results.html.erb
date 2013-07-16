@@ -1,10 +1,8 @@
-<h1>Pick Your Instagram</h1>
+<h1>Select Images to Display in Portfolio</h1>
 <% insta_id = @results.first.id %>
 <% feed = Instagram.user_recent_media(insta_id, {:count => 10}) %>
 <ul>
 <% feed.each do |instagram| %>
-  <li><%= image_tag instagram.images.thumbnail.url %><input type="checkbox" />
-  </li>
+  <li><%= image_tag instagram.images.thumbnail.url %><input type="checkbox" /><%= instagram.images.standard_resolution.url %></li>
 <% end %>
 </ul>
-

@@ -1,3 +1,5 @@
 <% @pavel.each do |instagram| %>
     <%= image_tag instagram.images.standard_resolution.url %>
 <% end %>
+
+<%= image_tag instagram.images.thumbnail.url %>

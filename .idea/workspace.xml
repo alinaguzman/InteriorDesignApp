@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8694e7-c525-476c-9612-88e04a0a6f58" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Alina\Desktop\GA\code\Projects\InteriorDesignApp\app\views\designers\_results.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/instatest.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/instatest.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/designers/results.html.erb" afterPath="$PROJECT_DIR$/app/views/designers/results.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="interiordesignapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +56,7 @@
     <file path="/20130716001605_add_role_to_users_table.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373934746354" ignored="false" />
     <file path="/edit.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373993459576" ignored="false" />
     <file path="/search.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373991100242" ignored="false" />
-    <file path="/results.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374010233739" ignored="false" />
+    <file path="/results.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374010961716" ignored="false" />
     <file path="/20130715014333_create_tags.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373941930659" ignored="false" />
     <file path="/20130716023327_add_column_to_tags.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373942027157" ignored="false" />
     <file path="/20130716023908_change_portfolios_table_column.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373943040001" ignored="false" />
@@ -133,10 +132,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="results.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/designers/results.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="197" selection-end="197" vertical-scroll-proportion="0.13975155">
+            <state line="7" column="5" selection-start="331" selection-end="331" vertical-scroll-proportion="-5.25">
               <folding />
             </state>
           </provider>
@@ -145,16 +144,16 @@
       <file leaf-file-name="instatest.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/instatest.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="33" selection-end="95" vertical-scroll-proportion="-0.75">
+            <state line="4" column="60" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="profile.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/profile.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.5">
+            <state line="6" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.16770187">
               <folding />
             </state>
           </provider>
@@ -208,13 +207,13 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/profile.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/instatest.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/designers/_results.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/results.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/designers_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/designers/profile.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/instatest.html.erb" />
         <option value="$PROJECT_DIR$/app/views/designers/results.html.erb" />
       </list>
     </option>
@@ -932,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/profile.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="-4.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="33" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
@@ -976,14 +968,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/instatest.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="33" selection-end="95" vertical-scroll-proportion="-0.75">
+        <state line="4" column="60" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/designers/results.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="197" selection-end="197" vertical-scroll-proportion="0.13975155">
+        <state line="7" column="5" selection-start="331" selection-end="331" vertical-scroll-proportion="-5.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/profile.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="169" selection-end="169" vertical-scroll-proportion="0.16770187">
           <folding />
         </state>
       </provider>
