@@ -6,6 +6,8 @@ Interiordesignapp::Application.routes.draw do
 
   get '/users/profile' => 'users#profile', :as => 'profile'
   get '/designers/profile' => 'designers#profile', :as => 'designer_profile'
+  post '/designers/tags' => 'designers#add_tag', :as => 'add_tag'
+
   get '/users/search' => 'users#search', :as => 'search'
  # get '/users/search/results' => 'users#results', :as => 'results'
   get '/users/results/:id' => 'users#show', :as => 'show'

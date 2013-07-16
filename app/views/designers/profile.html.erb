@@ -2,3 +2,18 @@ current profile stuff about this designer
 
 need to add option to get tags
 need to add all the instagram stuff (oh boy)
+
+<h1><%= current_user.name %></h1>
+
+<%= form_for @tag, url: add_tag_path do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
+<% end %>
+
+<h1>Your Tags</h1>
+<ul>
+<% current_user.tags.each do |tag| %>
+    <li><%= tag.name %></li>
+<% end %>
+</ul>
