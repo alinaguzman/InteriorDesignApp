@@ -4,9 +4,9 @@ Interiordesignapp::Application.routes.draw do
  # get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
  # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
 
-  resources :clients
 
   get '/users/search' => 'users#search', :as => 'search'
+  get '/users/search/results' => 'users#results', :as => 'results'
 
 
   # The priority is based upon order of creation:
