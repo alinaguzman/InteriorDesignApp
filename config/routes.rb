@@ -6,12 +6,17 @@ Interiordesignapp::Application.routes.draw do
 
   get '/users/profile' => 'users#profile', :as => 'profile'
   get '/designers/profile' => 'designers#profile', :as => 'designer_profile'
+  get '/designers/profile/results' => 'designers#results', :as => 'results'
   post '/designers/tags' => 'designers#add_tag', :as => 'add_tag'
 
   get '/users/search' => 'users#search', :as => 'search'
  # get '/users/search/results' => 'users#results', :as => 'results'
   get '/users/results/:id' => 'users#show', :as => 'show'
   post '/users/results/:id' => 'users#save_designer', :as => 'save_designer'
+
+  #get '/designers/profile/search' => 'designers#profile', :as => 'search'
+  #get '/designers/profile/results' => 'designers#results', :as => 'results'
+  get '/instatest' => 'welcome#instatest'
 
 
   # The priority is based upon order of creation:

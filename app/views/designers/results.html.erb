@@ -1,0 +1,8 @@
+<h1>Pick Your Instagram</h1>
+<% insta_id = @results.first.id %>
+<% feed = Instagram.user_recent_media(insta_id, {:count => 10}) %>
+
+<% feed.each do |instagram| %>
+    <%= image_tag instagram.images.standard_resolution.url %>
+<% end %>
+

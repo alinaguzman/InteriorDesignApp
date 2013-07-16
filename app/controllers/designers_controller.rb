@@ -10,4 +10,11 @@ class DesignersController < ApplicationController
     redirect_to '/designers/profile'
   end
 
+  def search
+    @results = Instagram.user_search(params[:name])
+  end
+
+  def results
+    @results = Instagram.user_search(params[:name])
+  end
 end

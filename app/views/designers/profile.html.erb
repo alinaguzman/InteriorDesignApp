@@ -1,9 +1,9 @@
-current profile stuff about this designer
-
-need to add option to get tags
+current profile stuff about this designer  |
 need to add all the instagram stuff (oh boy)
 
 <h1><%= current_user.name %></h1>
+
+
 
 <%= form_for @tag, url: add_tag_path do |f| %>
     <%= f.label :name %>
@@ -17,3 +17,9 @@ need to add all the instagram stuff (oh boy)
     <li><%= tag.name %></li>
 <% end %>
 </ul>
+
+<h2>Add Instagram Images to Your Portfolio</h2>
+<%= form_tag('/designers/profile/results', method: 'get') do %>
+    <%= text_field_tag(:name, nil ,:placeholder => 'Search for your Instagram') %>
+    <%= submit_tag 'Search' %>
+<% end %>
