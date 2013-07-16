@@ -1,3 +1,17 @@
 current profile stuff about this user
 
 dont really need to do much except display the profile here
+
+<h1><%= current_user.name %>'s Profile</h1>
+
+<h3>Your Saved Designers</h3>
+ <ul>
+<% current_user.favorites.each do |favorite| %>
+    <% designer = User.find(favorite.user_id) %>
+    <li><%= designer.name %></li>
+
+<% end %>
+ </ul>
+
+
+

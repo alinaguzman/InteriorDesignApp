@@ -32,4 +32,7 @@ class UsersController < ApplicationController
     #client = User client
     #designer = User desigener adding to the list
   end
+
+  def profile
+  end
 end
