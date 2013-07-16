@@ -24,4 +24,12 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
   end
+
+  def save_designer
+    designer = User.find(params[:id])
+    current_user.favorites.create(user: designer)
+    redirect_to '/users/profile'
+    #client = User client
+    #designer = User desigener adding to the list
+  end
 end

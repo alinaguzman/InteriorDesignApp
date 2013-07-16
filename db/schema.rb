@@ -13,9 +13,9 @@
 
 ActiveRecord::Schema.define(:version => 20130716135510) do
 
-  create_table "favorites", :force => true do |t|
+  create_table "favorites", :force => true do |t|   #change name
     t.integer "user_id"
-    t.integer "favorited_id"
+    t.integer "favorited_id"   #change this
   end
 
   create_table "portfolios", :force => true do |t|

@@ -9,6 +9,7 @@ Interiordesignapp::Application.routes.draw do
   get '/users/search' => 'users#search', :as => 'search'
  # get '/users/search/results' => 'users#results', :as => 'results'
   get '/users/results/:id' => 'users#show', :as => 'show'
+  post '/users/results/:id' => 'users#save_designer', :as => 'save_designer'
 
 
   # The priority is based upon order of creation:
