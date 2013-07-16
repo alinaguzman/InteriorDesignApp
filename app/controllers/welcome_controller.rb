@@ -9,7 +9,11 @@ class WelcomeController < ApplicationController
 
    # @photos = Instagram.tag_recent_media("interiordesign")
 
-   @instagram = Instagram.user_recent_media("15935796", {:count => 30})
+
+  end
+
+  def instatest
+    @instagram = Instagram.user_recent_media("15935796", {:count => 30})
 
   end
 end

@@ -22,6 +22,11 @@
   <div><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
   <%= f.password_field :current_password %></div>
 
+
+  <div><%= f.radio_button :role, "Client" %>Client<br />
+
+  <div><%= f.radio_button :role, "Designer" %>Designer<br />
+
   <div><%= f.submit "Update" %></div>
 <% end %>
 
