@@ -10,7 +10,7 @@ class UsersController < ApplicationController
     @tag_users = []
     Tag.where(name: params[:name]).each do |tag|
       tag.users.each do |user|
-        @tag_users << user.username
+        @tag_users << user
       end
     end
 end
@@ -21,5 +21,9 @@ end
         puts tag.name
       end
     end
+  end
+
+  def show
+    @user = User.find(params[:id])
   end
 end
