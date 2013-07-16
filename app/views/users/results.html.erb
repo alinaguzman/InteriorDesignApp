@@ -1,5 +1,9 @@
 <h1>Results</h1>
 
-<% @designers.each do |designer| %>
-<%= designer.username %>
+<ul>
+<% @tag_users.each do |user| %>
+<li><%= link_to user %></li>
 <% end %>
+</ul>
+
+
