@@ -1,0 +1,10 @@
+<!---if client -->
+
+<% if current_user.role %>
+
+<%= link_to "Profile", root_path %>
+<%= link_to "Search for Designers", search_path %>
+
+<!---if designer  -->
+
+<%= link_to "Profile", root_path %>

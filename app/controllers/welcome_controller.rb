@@ -1,6 +1,5 @@
 class WelcomeController < ApplicationController
 
-
   def index
    #if params[:username]
     #  username = params[:username]
@@ -11,10 +10,6 @@ class WelcomeController < ApplicationController
    # @photos = Instagram.tag_recent_media("interiordesign")
 
    @instagram = Instagram.user_recent_media("15935796", {:count => 30})
-
-  end
-
-  def search
 
   end
 end

@@ -6,5 +6,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable, :omniauthable
   has_many :tags
   has_many :portfolios
+
+  has_many :favorites
+  has_many :saved, through: :favorites, source: 'favorited'
   attr_accessible :email, :password, :username, :password_confirmation
 end

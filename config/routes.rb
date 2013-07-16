@@ -6,7 +6,7 @@ Interiordesignapp::Application.routes.draw do
 
   resources :clients
 
-  get '/search' => 'welcome#search'
+  get '/users/search' => 'users#search', :as => 'search'
 
 
   # The priority is based upon order of creation:
