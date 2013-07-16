@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130716001605) do
+ActiveRecord::Schema.define(:version => 20130716023908) do
 
   create_table "favorites", :force => true do |t|
     t.integer "user_id"
@@ -20,15 +20,16 @@ ActiveRecord::Schema.define(:version => 20130716001605) do
 
   create_table "portfolios", :force => true do |t|
     t.string   "image_path"
-    t.integer  "designer_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "tags", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "user_id"
   end
 
   create_table "users", :force => true do |t|
