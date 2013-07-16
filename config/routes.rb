@@ -4,7 +4,8 @@ Interiordesignapp::Application.routes.draw do
  # get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
  # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
 
-
+  get '/users/profile' => 'users#profile', :as => 'profile'
+  get '/designers/profile' => 'designers#profile', :as => 'designer_profile'
   get '/users/search' => 'users#search', :as => 'search'
  # get '/users/search/results' => 'users#results', :as => 'results'
   get '/users/results/:id' => 'users#show', :as => 'show'

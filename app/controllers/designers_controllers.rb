@@ -1,5 +1,5 @@
 class DesignersControllers < ApplicationController
-  def index
+  def profile
 
   end
 

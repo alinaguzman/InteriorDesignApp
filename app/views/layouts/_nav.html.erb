@@ -2,12 +2,12 @@
 
     <% if current_user.role == "Client" %>
 
-        <%= link_to "Profile", root_path %>
+        <%= link_to "Profile", profile_path %>
         <%= link_to "Search for Designers", search_path %>
 
     <% elsif current_user.role == "Designer" %>
 
-        <%= link_to "Profile", root_path %>
+        <%= link_to "Profile", designer_profile_path %>
 
     <% end %>
 
