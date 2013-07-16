@@ -1,5 +1,8 @@
-<form action='/users/search/results' method='get'>
-  <input name="name" type="text">
-  <button>Search</button>
-</form>
+<%= form_tag('/users/search', method: 'get') do %>
+
+    <%= text_field_tag(:name, nil ,:placeholder => 'Search a design style') %>
+    <%= submit_tag 'Search' %>
+<% end %>
+<%= render 'results' %>
+
 

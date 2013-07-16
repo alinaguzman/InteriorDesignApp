@@ -6,7 +6,7 @@ Interiordesignapp::Application.routes.draw do
 
 
   get '/users/search' => 'users#search', :as => 'search'
-  get '/users/search/results' => 'users#results', :as => 'results'
+ # get '/users/search/results' => 'users#results', :as => 'results'
   get '/users/results/:id' => 'users#show', :as => 'show'
 
 

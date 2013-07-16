@@ -9,5 +9,5 @@ class User < ActiveRecord::Base
 
   has_many :favorites
   has_many :saved, through: :favorites, source: 'favorited'
-  attr_accessible :email, :password, :username, :password_confirmation, :role
+  attr_accessible :email, :password, :username, :password_confirmation, :role, :name
 end
