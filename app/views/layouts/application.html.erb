@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Interiordesignapp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= content_for?(:title) ? yield(:title) : "Interior Design" %></title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<ul class="hmenu">
-  <%= render 'devise/menu/registration_items' %>
-  <%= render 'devise/menu/login_items' %>
-</ul>
-<%= render :partial => 'layouts/nav' %>
+<header>
+  <nav class="navbar-inner">
+    <ul><div class="container">
+      <%= render 'devise/menu/registration_items' %>
+      <%= render 'devise/menu/login_items' %>
+     <li><%= render :partial => 'layouts/nav' %></li>
+          </ul>
 
-<% if notice %>
-    <p class="notice"><%= notice %></p>
-<% end %>
-<% if alert %>
-    <p class="alert"><%= alert %></p>
-<% end %>
+    </div>
+  </nav>
+</header>
+<main role="main">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="span12">
 
-
-<%= yield %>
-
+          <% if notice %>
+              <p class="notice"><%= notice %></p>
+          <% end %>
+          <% if alert %>
+              <p class="alert"><%= alert %></p>
+          <% end %>
+          <%= yield %>
+        </div>
+      </div>
+      <footer>
+      </footer>
+    </div>
+  </div>
+</main>
 </body>
 </html>
