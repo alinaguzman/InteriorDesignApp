@@ -6,6 +6,7 @@ class DesignersController < ApplicationController
   def add_tag
     @tag = Tag.new(params[:tag])
     @tag.save
+    #binding.pry
     current_user.tags << @tag
     redirect_to '/designers/profile'
   end
@@ -16,5 +17,16 @@ class DesignersController < ApplicationController
 
   def results
     @results = Instagram.user_search(params[:name])
+    @portfolio = Portfolio.new
+  end
+
+  def add_to_portfolio
+    image = Portfolio.new
+    image.image_path = params[:image_path]
+    #binding.pry
+
+    image.save
+    current_user.portfolios << image
+    redirect_to '/designers/profile'
   end
 end

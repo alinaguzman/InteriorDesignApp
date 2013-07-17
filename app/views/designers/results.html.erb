@@ -1,8 +1,14 @@
 <h1>Select Images to Display in Portfolio</h1>
+
 <% insta_id = @results.first.id %>
 <% feed = Instagram.user_recent_media(insta_id, {:count => 10}) %>
-<ul>
-<% feed.each do |instagram| %>
-  <li><%= image_tag instagram.images.thumbnail.url %><input type="checkbox" /><%= instagram.images.standard_resolution.url %></li>
+<%= form_for @portfolio, url: add_to_portfolio_path do |f| %>
+  <ul>
+    <% feed.each do |instagram| %>
+        <li><%= image_tag instagram.images.thumbnail.url %>
+         <%= check_box_tag :image_path, instagram.images.standard_resolution.url %>
+     <% end %>
+  </ul>
+  <%= f.submit "Add Images To Portfolio" %>
 <% end %>
-</ul>
+
