@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8694e7-c525-476c-9612-88e04a0a6f58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/designers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/designers_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/designers/profile.html.erb" afterPath="$PROJECT_DIR$/app/views/designers/profile.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/designers/results.html.erb" afterPath="$PROJECT_DIR$/app/views/designers/results.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="interiordesignapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/.gitignore" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373914567620" ignored="false" />
+    <file path="/.gitignore" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374024676466" ignored="false" />
     <file path="/Dummy.txt" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374022507674" ignored="false" />
     <file path="/client.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373852737715" ignored="false" />
     <file path="/tag.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373980300367" ignored="false" />
@@ -75,7 +73,7 @@
     <file path="$PROJECT_DIR$/../../Week5/hogwartz/app/models/spell.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373990639896" ignored="false" />
     <file path="/_results.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374006908288" ignored="false" />
     <file path="/_registration_items.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373993385186" ignored="false" />
-    <file path="/profile.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374020612637" ignored="false" />
+    <file path="/profile.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374025004367" ignored="false" />
     <file path="$PROJECT_DIR$/../../Week5/app_store_example/db/schema.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373999421863" ignored="false" />
     <file path="$PROJECT_DIR$/../../Week5/app_store_example/db/seeds.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373995533407" ignored="false" />
     <file path="/schema.rb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373995936990" ignored="false" />
@@ -89,6 +87,7 @@
     <file path="$PROJECT_DIR$/../../Week5/app_store_example/app/views/users/show.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1373999719680" ignored="false" />
     <file path="/instatest.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374004649003" ignored="false" />
     <file path="$PROJECT_DIR$/../../Week5/hogwartz/app/views/students/new.html.erb" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374022650557" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Week5/hogwartz/.gitignore" changelist="2f8694e7-c525-476c-9612-88e04a0a6f58" time="1374024677233" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designers_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="designers_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/designers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="41" selection-start="510" selection-end="510" vertical-scroll-proportion="0.61891115">
+            <state line="24" column="41" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,13 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="profile.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/designers/profile.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="127" selection-end="259" vertical-scroll-proportion="-4.5">
-              <folding>
-                <marker date="1374020613133" expanded="true" signature="283:366" placeholder="..." />
-              </folding>
+            <state line="31" column="30" selection-start="736" selection-end="736" vertical-scroll-proportion="0.8278932">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,9 +196,9 @@
         <option value="$PROJECT_DIR$/app/views/welcome/instatest.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/designers/profile.html.erb" />
         <option value="$PROJECT_DIR$/app/views/designers/results.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/designers_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/designers/profile.html.erb" />
       </list>
     </option>
   </component>
@@ -960,15 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/designers/profile.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="127" selection-end="259" vertical-scroll-proportion="-4.5">
-          <folding>
-            <marker date="1374020613133" expanded="true" signature="283:366" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/designers/results.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="93" selection-start="476" selection-end="476" vertical-scroll-proportion="-10.5">
@@ -978,7 +966,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/designers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="510" selection-end="510" vertical-scroll-proportion="0.61891115">
+        <state line="24" column="41" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/designers/profile.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="30" selection-start="736" selection-end="736" vertical-scroll-proportion="0.8278932">
           <folding />
         </state>
       </provider>

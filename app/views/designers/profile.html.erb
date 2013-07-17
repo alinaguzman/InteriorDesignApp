@@ -18,6 +18,12 @@ need to add all the instagram stuff (oh boy)
 <% end %>
 </ul>
 
+<h2>Portfolio Images</h2>
+<% current_user.portfolios.each do |portfolio| %>
+    <%= image_tag portfolio.image_path %>
+<% end %>
+
+
 <h2>Add Instagram Images to Your Portfolio</h2>
 <%= form_tag('/designers/profile/results', method: 'post') do %>
     <%= text_field_tag(:name, nil ,:placeholder => 'Search for your Instagram') %>
