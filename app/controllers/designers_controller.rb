@@ -21,12 +21,12 @@ class DesignersController < ApplicationController
   end
 
   def add_to_portfolio
-    image = Portfolio.new
-    image.image_path = params[:image_path]
-    #binding.pry
-
-    image.save
-    current_user.portfolios << image
-    redirect_to '/designers/profile'
+      params[:image_path].each do |path|
+        image = Portfolio.new
+        image.image_path = path
+        image.save
+        current_user.portfolios << image
+      end
+      redirect_to '/designers/profile'
   end
 end
