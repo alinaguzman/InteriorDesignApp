@@ -1,9 +1,15 @@
- <% if @tag_users.present? %>
-     <h1>Designers Matching Your Style</h1>
-    <ul>
-      <% @tag_users.each do |user| %>
-          <li><a href="/users/results/<%= user.id %>"><%= user.username %></a></li>
-      <% end %>
-    </ul>
-<% end %>
+ <% if params[:name].present? %>
+     <% if @tag_users.count > 1 %>
+         <h3>Designers Matching Your Style</h3>
+            <ul>
+          <% @tag_users.each do |user| %>
+              <li><a href="/users/results/<%= user.id %>"><%= user.name %></a></li>
+          <% end %>
+
+            </ul>
+        <% else %>
+            <p>There are no designers currently matching your style. Try searching for another?</p>
+     <% end %>
+ <% end %>
+
 

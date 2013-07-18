@@ -1,30 +1,29 @@
 <h1><%= current_user.name %></h1>
 
-<ul>
-  <li>Username: <%= current_user.username %></li>
-  <li>Tags:</li>
-          <ul>
+<ul class="nodots">
+  <li>Tagged with:</li>
+          <ul class="regular">
             <% current_user.tags.each do |tag| %>
-                <li><%= tag.name %></li>
+                <li><i class="icon-tag"></i> <%= tag.name %></li>
             <% end %>
           </ul>
 </ul>
 
 
 <%= form_for @tag, url: add_tag_path do |f| %>
-    <%= f.text_field :name, :placeholder => "Add a Tag" %>
-    <%= f.submit %>
+    <%= f.text_field :name, :placeholder => "Add a Tag" %><br />
+    <%= f.submit 'Search', class: 'btn btn-inverse'  %>
 <% end %>
 
 
 <h2>Portfolio Images</h2>
 <% current_user.portfolios.each do |portfolio| %>
-    <%= image_tag portfolio.image_path %>
+    <div class="instaclass"><%= image_tag portfolio.image_path, class: 'img-polaroid' %></div>
 <% end %>
 
 
-<h2>Add Instagram Images to Your Portfolio</h2>
+<h4>Add Instagram Images to Your Portfolio</h4>
 <%= form_tag('/designers/profile/results', method: 'post') do %>
     <%= text_field_tag(:name, nil ,:placeholder => 'Search for your Instagram') %>
-    <%= submit_tag 'Search' %>
+    <%= submit_tag 'Search', class: 'btn btn-inverse'  %>
 <% end %>

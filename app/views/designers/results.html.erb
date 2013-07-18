@@ -6,9 +6,12 @@
   <ul>
     <% feed.each do |instagram| %>
         <li><%= image_tag instagram.images.thumbnail.url %>
-         <%= check_box_tag :image_paths, instagram.images.standard_resolution.url %>
+         <%= check_box_tag "current_user[portfolio_ids][]", instagram.images.standard_resolution.url %>
      <% end %>
   </ul>
-  <%= f.submit "Add Images To Portfolio" %>
+  <%= f.submit "Add Images To Portfolio", class: 'btn btn-inverse'  %>
 <% end %>
 
+
+
+@user.portfolios

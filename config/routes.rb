@@ -1,5 +1,9 @@
 Interiordesignapp::Application.routes.draw do
   devise_for :users
+  root :to => 'welcome#about'
+
+
+
 
  # get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
  # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
@@ -11,14 +15,8 @@ Interiordesignapp::Application.routes.draw do
   post '/designers/portfolio' => 'designers#add_to_portfolio', :as => 'add_to_portfolio'
 
   get '/users/search' => 'users#search', :as => 'search'
- # get '/users/search/results' => 'users#results', :as => 'results'
   get '/users/results/:id' => 'users#show', :as => 'show'
   post '/users/results/:id' => 'users#save_designer', :as => 'save_designer'
-
-  #get '/designers/profile/search' => 'designers#profile', :as => 'search'
-  #get '/designers/profile/results' => 'designers#results', :as => 'results'
-  get '/instatest' => 'welcome#instatest'
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -69,7 +67,7 @@ Interiordesignapp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'welcome#index'
+
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,13 +1,27 @@
 <h1><%= current_user.name %>'s Profile</h1>
-
+<div class="alinacenter">
 <h3>Your Saved Designers</h3>
- <ul>
-<% current_user.favorites.each do |favorite| %>
-    <% designer = User.find(favorite.user_id) %>
-    <li><%= designer.name %></li>
+<table class="table table-striped" style="width: 40%">
+  <% current_user.favorites.each do |favorite| %>
+   <% designer = User.find(favorite.user_id) %>
+  <tr>
+    <td> <%= designer.name %></td>
+    <td><a href=""><i class="icon-envelope"></i></a></td>
+    <td>
 
-<% end %>
- </ul>
 
+
+      <%= form_tag('/search', method: 'post') do %>
+
+          <%= hidden_field_tag(:favorite_id, designer.id) %>
+          <%= button_tag(type: 'submit') do %>
+              <i class="icon-remove"></i>
+          <% end %>
+         <% end %>
+    </td>
+  </tr>
+      <% end %>
+</table>
+</div>
 
 

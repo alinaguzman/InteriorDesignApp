@@ -10,18 +10,18 @@
 <body>
 <header>
   <nav class="navbar-inner">
-    <ul><div class="container">
+    <div class="container">
       <%= render 'devise/menu/registration_items' %>
       <%= render 'devise/menu/login_items' %>
-     <li><%= render :partial => 'layouts/nav' %></li>
-          </ul>
+     <%= render :partial => 'layouts/nav' %>
+
 
     </div>
   </nav>
 </header>
 <main role="main">
-  <div class="container">
-    <div class="content">
+    <div class="container">
+    <div class="content alinacenter">
       <div class="row">
         <div class="span12">
 
@@ -31,6 +31,7 @@
           <% if alert %>
               <p class="alert"><%= alert %></p>
           <% end %>
+          <br />
           <%= yield %>
         </div>
       </div>

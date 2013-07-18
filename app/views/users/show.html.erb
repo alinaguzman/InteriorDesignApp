@@ -1,12 +1,12 @@
 <h1>Client Info</h1>
 
 
-<ul>
+<ul class="nodots">
   <li><%= @user.name %></li>
   <li>Tags:</li>
   <ul>
     <% @user.tags.each do |tag| %>
-        <li><%= tag.name %></li>
+        <li><i class="icon-tag"></i> <%= tag.name %></li>
     <% end %>
   </ul>
 </ul>
@@ -14,8 +14,10 @@
 
 <h2>Portfolio Images</h2>
 <% @user.portfolios.each do |portfolio| %>
-    <%= image_tag portfolio.image_path %>
+    <div class="instaclass"><%= image_tag portfolio.image_path %></div>
 <% end %>
 
-<%= button_to "Save Designer", save_designer_path(@user.id)  %>
+<p></p>
+
+<%= button_to "Save Designer", save_designer_path(@user.id), class: 'btn btn-inverse'   %>
 
