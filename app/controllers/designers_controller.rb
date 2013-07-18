@@ -5,10 +5,18 @@ class DesignersController < ApplicationController
 
   def add_tag
     @tag = Tag.new(params[:tag])
-    @tag.save
-    #binding.pry
-    current_user.tags << @tag
-    redirect_to '/designers/profile'
+    tag_names = []
+    current_user.tags.each do |tag|
+      tag_names << tag.name
+    end
+
+      if tag_names.include?(params[:tag][:name])
+        redirect_to '/designers/profile'
+      else
+        @tag.save
+        current_user.tags << @tag
+        redirect_to '/designers/profile'
+      end
   end
 
   def search

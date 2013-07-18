@@ -40,12 +40,12 @@ class UsersController < ApplicationController
   end
 
   def remove
-    current_user.favorites.each do |favorite|
-      User.find(params[:id])
-    end
+   # current_user.favorites.each do |favorite|
+    #  User.find(params[:id])
+   # end
 
 
-    raise
-    redirect_to '/users/profile'
+   # raise
+   # redirect_to '/users/profile'
   end
 end
