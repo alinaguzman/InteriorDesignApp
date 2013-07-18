@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= content_for?(:title) ? yield(:title) : "Interior Design" %></title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+  <nav class="navbar-inner">
+    <div class="container">
+      <%= render 'devise/menu/registration_items' %>
+      <%= render 'devise/menu/login_items' %>
+      <%= render :partial => 'layouts/nav' %>
+
+
+    </div>
+  </nav>
+</header>
+<main role="main">
+
+          <% if notice %>
+              <p class="notice"><%= notice %></p>
+          <% end %>
+          <% if alert %>
+              <p class="alert"><%= alert %></p>
+          <% end %>
+          <br />
+          <%= yield %>
+</main>
+</body>
+</html>

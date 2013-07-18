@@ -61,7 +61,7 @@ Interiordesignapp::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 
-  config.action_mailer.default_url_options = { :host => 'http://tranquil-crag-2109.herokuapp.com/' }
+  config.action_mailer.default_url_options = { :host => 'http://tranquil-crag-2109.herokuapp.com' } #is it the slash?!
 
 
   # Log the query plan for queries taking more than this (works

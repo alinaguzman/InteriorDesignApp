@@ -103,6 +103,11 @@ div.transbox h1 {
 }
 
 .container .transbox {
-    width: 1685px;
-    margin-left: -300px;
+
  }
+
+.buttonless {
+    background:none!important;
+    border:none;
+    padding:0!important;
+}
