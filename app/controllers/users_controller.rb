@@ -35,4 +35,9 @@ class UsersController < ApplicationController
 
   def profile
   end
+
+  def message
+    @designer = User.find(params[:id])
+
+  end
 end

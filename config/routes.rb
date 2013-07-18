@@ -9,6 +9,7 @@ Interiordesignapp::Application.routes.draw do
  # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
 
   get '/users/profile' => 'users#profile', :as => 'profile'
+  get '/users/message/:id' => 'users#message', :as => 'message'
   get '/designers/profile' => 'designers#profile', :as => 'designer_profile'
   post '/designers/profile/results' => 'designers#results', :as => 'results'
   post '/designers/tags' => 'designers#add_tag', :as => 'add_tag'

@@ -6232,5 +6232,6 @@ div.transbox h1 {
 }
 
 .container .transbox {
-    width: 100%;
+    width: 1750px;
+    margin-left: -300px;
  }

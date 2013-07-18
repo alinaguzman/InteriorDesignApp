@@ -6,7 +6,7 @@
    <% designer = User.find(favorite.user_id) %>
   <tr>
     <td> <%= designer.name %></td>
-    <td><a href=""><i class="icon-envelope"></i></a></td>
+    <td><a href="/users/message/<%= designer.id %>"><i class="icon-envelope"></i></a></td>
     <td>
 
 
