@@ -1,5 +1,6 @@
 <h1><%= current_user.name %></h1>
 
+<% if current_user.tags.length >= 1 %>
 <ul class="nodots">
   <li>Tagged with:</li>
           <ul class="regular">
@@ -8,6 +9,7 @@
             <% end %>
           </ul>
 </ul>
+<% end %>
 
 
 <%= form_for @tag, url: add_tag_path do |f| %>

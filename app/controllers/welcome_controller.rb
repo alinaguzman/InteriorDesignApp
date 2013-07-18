@@ -1,7 +1,6 @@
 class WelcomeController < ApplicationController
 
   def about
-
     if current_user && current_user.role == "Client"
       redirect_to '/users/profile'
     elsif current_user && current_user.role == "Designer"
