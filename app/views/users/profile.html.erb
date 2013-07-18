@@ -14,14 +14,28 @@
       <%= form_tag('/search', method: 'post') do %>
 
           <%= hidden_field_tag(:favorite_id, designer.id) %>
-          <%= button_tag(type: 'submit') do %>
-              <i class="icon-remove"></i>
-          <% end %>
+
+              <%= button_tag(type: 'submit') do %>
+                  <i class="icon-remove"></i>
+              <% end %>
+          <i class="icon-remove-circle"></i> <i class="icon-remove"></i> <i class="icon-remove-sign"></i>
          <% end %>
     </td>
   </tr>
       <% end %>
 </table>
 </div>
+
+<% if current_user.role == "Client" %>
+
+    <h3>Search for Designers</h3>
+
+    <%= form_tag('/users/search', method: 'get') do %>
+
+        <%= text_field_tag(:name, nil ,:placeholder => 'Search a design style') %><br />
+        <%= submit_tag 'Search', class: 'btn btn-inverse' %>
+    <% end %>
+    <%= render 'results' %>
+<% end %>
 
 
