@@ -12,14 +12,13 @@ class UsersController < ApplicationController
     end
   end
 
-
-  def designer_to_tag
-    User.where(role:"Designer").each do |designer|
-      designer.tags.each do |tag|
-        puts tag.name
-      end
-    end
-  end
+  #def designer_to_tag
+  #  User.where(role:"Designer").each do |designer|
+  #    designer.tags.each do |tag|
+  #      puts tag.name
+  #    end
+  #  end
+  #end
 
   def show
     @user = User.find(params[:id])
@@ -38,6 +37,15 @@ class UsersController < ApplicationController
 
   def message
     @designer = User.find(params[:id])
+  end
 
+  def remove
+    current_user.favorites.each do |favorite|
+      User.find(params[:id])
+    end
+
+
+    raise
+    redirect_to '/users/profile'
   end
 end

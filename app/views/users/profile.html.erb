@@ -1,6 +1,8 @@
 <h1><%= current_user.name %>'s Profile</h1>
 <div class="alinacenter">
 <h3>Your Saved Designers</h3>
+
+
 <table class="table table-striped" style="width: 40%">
   <% current_user.favorites.each do |favorite| %>
    <% designer = User.find(favorite.user_id) %>
@@ -9,16 +11,13 @@
     <td><a href="/users/message/<%= designer.id %>"><i class="icon-envelope"></i></a></td>
     <td>
 
-
-
-      <%= form_tag('/search', method: 'post') do %>
+      <%= form_tag('/remove', method: 'post') do %>
 
           <%= hidden_field_tag(:favorite_id, designer.id) %>
 
               <%= button_tag(type: 'submit', class: 'buttonless') do %>
                   <i class="icon-remove"></i>
               <% end %>
-          <i class="icon-remove-circle"></i> <i class="icon-remove"></i> <i class="icon-remove-sign"></i>
          <% end %>
     </td>
   </tr>

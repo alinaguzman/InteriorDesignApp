@@ -3,13 +3,14 @@ Interiordesignapp::Application.routes.draw do
   root :to => 'welcome#about'
 
 
-
-
  # get "/oauth/connect" => 'instagram#connect', :as => 'oauth_connect'
  # get "/oauth/callback" => 'instagram#callback', :as => 'oauth_callback'
 
   get '/users/profile' => 'users#profile', :as => 'profile'
   get '/users/message/:id' => 'users#message', :as => 'message'
+
+  #deletes designer from clients favorite list
+  post '/remove/:id' => 'users#remove', :as => 'remove'
   get '/designers/profile' => 'designers#profile', :as => 'designer_profile'
   post '/designers/profile/results' => 'designers#results', :as => 'results'
   post '/designers/tags' => 'designers#add_tag', :as => 'add_tag'
