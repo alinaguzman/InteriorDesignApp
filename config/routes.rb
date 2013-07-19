@@ -10,7 +10,7 @@ Interiordesignapp::Application.routes.draw do
   get '/users/message/:id' => 'users#message', :as => 'message'
 
   #deletes designer from clients favorite list
-  post '/remove/:id' => 'users#remove', :as => 'remove'
+  post '/users/remove' => 'users#remove', :as => 'remove'
   get '/designers/profile' => 'designers#profile', :as => 'designer_profile'
   post '/designers/profile/results' => 'designers#results', :as => 'results'
   post '/designers/tags' => 'designers#add_tag', :as => 'add_tag'

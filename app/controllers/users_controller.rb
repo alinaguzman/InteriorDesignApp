@@ -41,12 +41,7 @@ class UsersController < ApplicationController
   end
 
   def remove
-   # current_user.favorites.each do |favorite|
-    #  User.find(params[:id])
-   # end
-
-
-   # raise
-   # redirect_to '/users/profile'
+    current_user.favorites.find(params[:favorite]).destroy
+    redirect_to '/users/profile'
   end
 end

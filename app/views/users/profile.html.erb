@@ -11,9 +11,9 @@
     <td><a href="/users/message/<%= designer.id %>"><i class="icon-envelope"></i></a></td>
     <td>
 
-      <%= form_tag('/remove', method: 'post') do %>
+      <%= form_tag('/users/remove', method: 'post') do %>
 
-          <%= hidden_field_tag(:favorite_id, designer.id) %>
+          <%= hidden_field_tag(:favorite, favorite.id) %>
 
               <%= button_tag(type: 'submit', class: 'buttonless') do %>
                   <i class="icon-remove"></i>
