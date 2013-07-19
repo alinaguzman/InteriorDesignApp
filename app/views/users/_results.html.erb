@@ -1,5 +1,5 @@
  <% if params[:name].present? %>
-     <% if @tag_users.count > 1 %>
+     <% if @tag_users.count >= 1 %>
          <h3>Designers Matching Your Style</h3>
             <ul>
           <% @tag_users.each do |user| %>
