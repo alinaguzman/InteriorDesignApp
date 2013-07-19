@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   def index
-
   end
 
   def search
@@ -13,33 +12,26 @@ class UsersController < ApplicationController
     end
   end
 
-  #def designer_to_tag
-  #  User.where(role:"Designer").each do |designer|
-  #    designer.tags.each do |tag|
-  #      puts tag.name
-  #    end
-  #  end
-  #end
-
   def show
     @user = User.find(params[:id])
   end
 
+  #Save a designer to a clients favorite list
   def save_designer
     designer = User.find(params[:id])
     current_user.favorites.create(user: designer)
     redirect_to '/users/profile'
-    #client = User client
-    #designer = User desigener adding to the list
   end
 
   def profile
   end
 
+  #Shows the contact form for the client to contact designer
   def message
     @designer = User.find(params[:id])
   end
 
+  #Removes a designer from a clients Favorite List
   def remove
     current_user.favorites.find(params[:favorite]).destroy
     redirect_to '/users/profile'

@@ -24,7 +24,9 @@ class DesignersController < ApplicationController
   end
 
   def results
-    @results = Instagram.user_search(params[:name])
+    results = Instagram.user_search(params[:name])
+    insta_id = results.first.id
+    @feed = Instagram.user_recent_media(insta_id, {:count => 20})
     @portfolio = Portfolio.new
   end
 
