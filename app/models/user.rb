@@ -11,6 +11,8 @@ class User < ActiveRecord::Base
 
   has_many :favorites, :class_name => 'Favorite', :foreign_key => 'favorited_id'
 
+  validates :role, presence: true
+
   #has_many :favorites
   #has_many :saved, through: :favorites, source: 'favorited'
 end
