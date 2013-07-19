@@ -25,16 +25,13 @@
 </table>
 </div>
 
-<% if current_user.role == "Client" %>
 
     <h3>Search for Designers</h3>
-
     <%= form_tag('/users/search', method: 'get') do %>
-
         <%= text_field_tag(:name, nil ,:placeholder => 'Search a design style') %><br />
         <%= submit_tag 'Search', class: 'btn btn-inverse' %>
     <% end %>
     <%= render 'results' %>
-<% end %>
+
 
 
