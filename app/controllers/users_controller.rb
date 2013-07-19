@@ -8,6 +8,7 @@ class UsersController < ApplicationController
     Tag.where(name: params[:name]).each do |tag|
       tag.users.each do |user|
         @tag_users << user
+
       end
     end
   end
